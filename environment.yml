@@ -1,0 +1,17 @@
+name: pyspark_env
+channels:
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+dependencies:
+  - findspark=2.0.1
+  - ipykernel=6.29.5
+  - matplotlib=3.10.0
+  - nbformat=5.10.4
+  - openjdk=11.0.13
+  - plotly=5.24.1
+  - pyspark=3.5.5
+  - python=3.10.16
+  - requests=2.32.3
+  - wget=1.25.0
+prefix: /opt/anaconda3/envs/pyspark_env
